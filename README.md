@@ -1,5 +1,5 @@
 # Training models in CIFAR datasets using pytorch
-
+Source code were reused from [here](https://github.com/kuangliu/pytorch-cifar).
 ## Prerequisites
  - `conda create -n torchenv python=3.6`
  - `conda activate torchenv`
