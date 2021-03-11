@@ -18,7 +18,7 @@ def load_data(ds_name, val_size=5000):
     if ds_name == "cifar10":
         classes = ('plane', 'car', 'bird', 'cat', 'deer',
                    'dog', 'frog', 'horse', 'ship', 'truck')
-        ds_klass = torchvision.datasets.CIFAR10()
+        ds_klass = torchvision.datasets.CIFAR10
         num_classes = 10
     elif ds_name == "cifar100":
 
